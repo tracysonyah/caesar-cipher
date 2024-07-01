@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    padding-bottom: 25px;
+    color: orange;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.first {
+    border: 3px solid orange;
+    padding: 13px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.second {
+    border: 3px solid orange;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+#encrypt-result, #decrypt-result {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+input {
+    border: none;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 17px;
+    cursor: pointer;
+}
